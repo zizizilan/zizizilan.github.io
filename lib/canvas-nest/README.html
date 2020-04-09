@@ -373,7 +373,6 @@
 
 
   <script defer src="/lib/three/three.min.js"></script>
-    <script defer src="/lib/three/three-waves.min.js"></script>
 
 
   
@@ -407,9 +406,19 @@
   </script>
 
 
-
+  <!-- 点击爱心特效 -->
   <script type="text/javascript" src="/js/src/love.js"></script>
+  <!-- 点击彩色爆炸特效fireworks -->
+  <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" >
+  </canvas> 
+  <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+  <script type="text/javascript" src="/js/fireworks.js"></script>
 
-  
+  <!-- 雪花特效 
+  <script type="text/javascript" src="http://libs.baidu.com/jquery/2.1.4/jquery.js"></script>
+  <script type="text/javascript" src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="\js\snow.js"></script>
+  -->
+
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
